@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Insertion Sort Implementation
+ * 
+ * Time Complexity: 
+ *   - Worst/Average Case: O(N^2) when elements are in reverse order.
+ *   - Best Case: O(N) when the input array is already or nearly sorted.
+ * Space Complexity: O(1) Auxiliary (In-place sorting).
+ * Practice Link:https://read.learnyard.com/dsa/insertion-sort-algorithm/ 
+ */
 void insertionSort(vector<int> &arr) {
   int n = arr.size();
 

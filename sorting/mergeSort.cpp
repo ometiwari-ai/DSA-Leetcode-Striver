@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+
+/**
+ * @brief Merge Sort Implementation (Divide and Conquer)
+ * 
+ * Time Complexity: O(N log N) guaranteed across Best, Average, and Worst cases.
+ * Space Complexity: O(N) Auxiliary space due to temporary sub-array creation.
+ * Practice Link: https://leetcode.com/problems/merge-sorted-array/
+ */
 void merge(vector<int> &arr, int low, int mid, int high) {
   int i = low, j = mid + 1;
   vector<int> temp;

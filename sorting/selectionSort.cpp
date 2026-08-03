@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Selection Sort Implementation
+ * 
+ * Time Complexity: O(N^2) across Best, Average, and Worst cases.
+ * Space Complexity: O(1) Auxiliary (In-place sorting).
+ * Practice Link: https://www.codechef.com/learn/course/college-design-analysis-algorithms/CPDAA01/problems/DAA005
+ */
 void selectionSort(vector<int> &arr) {
   int n = arr.size();
 
