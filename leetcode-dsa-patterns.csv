@@ -1,0 +1,168 @@
+Category_ID,Category_Name,Problem_ID
+1,Sliding Window,3
+1,Sliding Window,76
+1,Sliding Window,209
+1,Sliding Window,424
+1,Sliding Window,567
+1,Sliding Window,904
+2,Two Pointers,11
+2,Two Pointers,15
+2,Two Pointers,16
+2,Two Pointers,18
+2,Two Pointers,42
+2,Two Pointers,167
+3,Fast/Slow Pointers (Linked List),141
+3,Fast/Slow Pointers (Linked List),142
+3,Fast/Slow Pointers (Linked List),19
+3,Fast/Slow Pointers (Linked List),876
+3,Fast/Slow Pointers (Linked List),160
+3,Fast/Slow Pointers (Linked List),234
+4,Binary Search on Sorted Data,33
+4,Binary Search on Sorted Data,34
+4,Binary Search on Sorted Data,35
+4,Binary Search on Sorted Data,153
+4,Binary Search on Sorted Data,162
+4,Binary Search on Sorted Data,704
+5,Binary Search on Answer,875
+5,Binary Search on Answer,1011
+5,Binary Search on Answer,410
+5,Binary Search on Answer,774
+5,Binary Search on Answer,1283
+5,Binary Search on Answer,1482
+6,Hashing / Frequency Maps,1
+6,Hashing / Frequency Maps,49
+6,Hashing / Frequency Maps,128
+6,Hashing / Frequency Maps,217
+6,Hashing / Frequency Maps,242
+6,Hashing / Frequency Maps,347
+7,Prefix Sum / Running Sum,303
+7,Prefix Sum / Running Sum,560
+7,Prefix Sum / Running Sum,724
+7,Prefix Sum / Running Sum,930
+7,Prefix Sum / Running Sum,974
+7,Prefix Sum / Running Sum,523
+8,Difference Array / Range Updates,370
+8,Difference Array / Range Updates,1094
+8,Difference Array / Range Updates,1109
+8,Difference Array / Range Updates,1893
+8,Difference Array / Range Updates,1943
+8,Difference Array / Range Updates,2381
+9,Monotonic Stack,739
+9,Monotonic Stack,496
+9,Monotonic Stack,503
+9,Monotonic Stack,84
+9,Monotonic Stack,85
+9,Monotonic Stack,901
+9,Monotonic Stack,853
+10,Monotonic Queue / Deque,239
+10,Monotonic Queue / Deque,862
+10,Monotonic Queue / Deque,1425
+10,Monotonic Queue / Deque,1438
+10,Monotonic Queue / Deque,1499
+10,Monotonic Queue / Deque,1696
+11,Heap / Top K,215
+11,Heap / Top K,347
+11,Heap / Top K,692
+11,Heap / Top K,703
+11,Heap / Top K,973
+11,Heap / Top K,10
+12,Intervals,56
+12,Intervals,57
+12,Intervals,252
+12,Intervals,253
+12,Intervals,435
+12,Intervals,452
+13,Greedy Scheduling / Sorting,45
+13,Greedy Scheduling / Sorting,55
+13,Greedy Scheduling / Sorting,406
+14,Linked List Manipulation,21
+14,Linked List Manipulation,23
+14,Linked List Manipulation,24
+14,Linked List Manipulation,25
+15,Tree DFS,104
+15,Tree DFS,112
+15,Tree DFS,113
+15,Tree DFS,543
+15,Tree DFS,124
+15,Tree DFS,226
+16,Tree BFS / Level Order,102
+16,Tree BFS / Level Order,103
+16,Tree BFS / Level Order,199
+16,Tree BFS / Level Order,51
+17,BST Problems,98
+17,BST Problems,99
+17,BST Problems,230
+17,BST Problems,235
+17,BST Problems,450
+17,BST Problems,700
+18,Backtracking Basics,46
+18,Backtracking Basics,47
+18,Backtracking Basics,77
+18,Backtracking Basics,78
+18,Backtracking Basics,90
+19,Backtracking with Constraints,40
+19,Backtracking with Constraints,17
+19,Backtracking with Constraints,7
+20,Graph BFS / DFS,200
+20,Graph BFS / DFS,695
+20,Graph BFS / DFS,733
+20,Graph BFS / DFS,994
+20,Graph BFS / DFS,10
+21,Topological Sort / DAG,207
+21,Topological Sort / DAG,210
+21,Topological Sort / DAG,802
+21,Topological Sort / DAG,1
+22,Union Find / DSU,547
+22,Union Find / DSU,684
+22,Union Find / DSU,1319
+22,Union Find / DSU,1579
+22,Union Find / DSU,990
+22,Union Find / DSU,1202
+23,Shortest Path,743
+23,Shortest Path,787
+23,Shortest Path,1514
+23,Shortest Path,1631
+23,Shortest Path,1334
+23,Shortest Path,1976
+24,MST / Graph Greedy,1584
+24,MST / Graph Greedy,1135
+24,MST / Graph Greedy,1168
+24,MST / Graph Greedy,1489
+24,MST / Graph Greedy,778
+24,MST / Graph Greedy,1102
+25,Trie,208
+25,Trie,211
+25,Trie,212
+25,Trie,648
+25,Trie,677
+25,Trie,1268
+26,Bit Manipulation,136
+26,Bit Manipulation,137
+26,Bit Manipulation,191
+26,Bit Manipulation,338
+26,Bit Manipulation,268
+26,Bit Manipulation,190
+27,1D DP Basics,70
+27,1D DP Basics,198
+27,1D DP Basics,213
+27,1D DP Basics,322
+27,1D DP Basics,279
+27,1D DP Basics,300
+28,Knapsack / Subset DP,416
+28,Knapsack / Subset DP,494
+28,Knapsack / Subset DP,518
+28,Knapsack / Subset DP,474
+28,Knapsack / Subset DP,1049
+28,Knapsack / Subset DP,879
+29,Grid DP,62
+29,Grid DP,63
+29,Grid DP,64
+29,Grid DP,221
+29,Grid DP,931
+29,Grid DP,120
+30,String DP / Sequence DP,1143
+30,String DP / Sequence DP,72
+30,String DP / Sequence DP,115
+30,String DP / Sequence DP,583
+30,String DP / Sequence DP,97
+30,String DP / Sequence DP,1312
