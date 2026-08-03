@@ -1,6 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+/** 
+ * @brief Bubble Sort Implementation
+ * 
+ * Time Complexity: 
+ *   - Worst/Average Case: O(N^2) due to nested loops scanning all pairs.
+ *   - Best Case: O(N) when optimized with an 'swapped' flag on an already sorted array.
+ * Space Complexity: O(1) Auxiliary (In-place sorting).
+ * Practice Problem: https://www.geeksforgeeks.org/problems/bubble-sort/1
+*/
 void bubbleSort(vector<int> &arr) {
   int n = arr.size();
   bool swapped;
