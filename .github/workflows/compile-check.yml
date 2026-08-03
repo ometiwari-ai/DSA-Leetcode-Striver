@@ -1,0 +1,40 @@
+name: C++ compile check
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install build-essential
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      - name: Find and compile all .cpp files
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Searching for .cpp files..."
+          files=()
+          while IFS= read -r -d '' f; do
+            files+=("$f")
+          done < <(find . -type f -name '*.cpp' -print0)
+
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No .cpp files found. Skipping."
+            exit 0
+          fi
+
+          echo "Found ${#files[@]} .cpp files. Running syntax checks..."
+          for f in "${files[@]}"; do
+            echo "Checking: $f"
+            # Syntax-only check (fast)
+            g++ -std=c++17 -fsyntax-only "$f"
+          done
+
+          echo "All files passed syntax check."
